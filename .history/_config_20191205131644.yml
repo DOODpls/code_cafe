@@ -2,25 +2,23 @@
 #
 
 # Site settings
-title: Code Cafe
+title: Spectral
 description: |
-  A place where you can relax  
-  and do stuff while enjoying
-  a good cup of coffee
-owner: Code Cafe # or company name
-first_published: 2019 # if migrating another site, the year of your first publish
+A place where you can relax and do what you need to do while having a good coffee
+owner: Your Name # or company name
+first_published: 2016 # if migrating another site, the year of your first publish
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/codecafe
-  #github: https://github.com/<username>
-  #linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/codecafe
-  #google-plus-square: https://plus.google.com/u/0/+<username>
+  twitter: https://twitter.com/<username>
+  github: https://github.com/<username>
+  linkedin-square: https://linkedin.com/in/<username>
+  facebook-official: https://facebook.com/<username>
+  google-plus-square: https://plus.google.com/u/0/+<username>
   #email: /contact/
   #flickr:
-  instagram: https://instagram.com/codecafe
+  #instagram:
   #youtube-square:
   #spotify:
   #stack-overflow:
