@@ -9,7 +9,7 @@ An aeropress makes a single 8oz cup of coffee, using air pressure to extract ext
 
 So once you bring home your new aeropress, how do you use it?
 
-<img src="../images/william-moreland-aeropress-unsplash.jpg" alt="pouring aeropress coffee" class="blog-img">
+<img src="/images/william-moreland-aeropress-unsplash.jpg" alt="pouring aeropress coffee" class="blog-img">
 
 1. Add your grounds to the aeropress, using the scoop provided. 
 
