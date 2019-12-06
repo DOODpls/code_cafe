@@ -1,0 +1,12 @@
+---
+layout: page
+---
+
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      {% for post in paginator.posts %}
+        {% include blogs_list.html %}
+      {% endfor %}
+    </div>
+

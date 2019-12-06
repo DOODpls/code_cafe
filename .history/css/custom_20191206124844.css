@@ -1,0 +1,24 @@
+.ccflogo{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  bottom: -3px;
+}
+.ccflogo2{
+  margin: 30px auto;
+  height: 70px;
+  width: 70px;
+}
+@media print {
+  .headers{
+    display: none;
+  }
+.blog-pg{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.blog-pages{
+  display: flex;
+  justify-content: center;
+}

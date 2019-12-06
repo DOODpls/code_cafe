@@ -1,0 +1,54 @@
+<!-- Blogs -->
+<h2>Latest Posts</h2>
+
+  <div>&nbsp;</div>
+
+  <ul class="post-list">
+      {% for post in paginator.posts %}
+      <li>
+
+        {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+        </h2>
+
+        {{ post.excerpt | markdownify | truncatewords: 30 }}
+
+      </li>
+      {% endfor %}
+      
+  </ul>
+  <div class="blog-pages">
+      <!-- Pagination links -->
+      {% if paginator.total_pages > 1 %}
+        <ul class="pagination pagination-sm">
+          {% if paginator.previous_page %}
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
+          {% else %}
+            <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
+          {% endif %}
+    
+          <li><a href="/blogs/">First</a></li>
+    
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <li class="active"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
+            {% elsif page == 1 %}
+              <li><a href="/blogs/">{{ page }}</a></li>
+            {% else %}
+              <li><a href="/blogs{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', '/' }}{{page}}">{{ page }}</a></li>
+            {% endif %}
+          {% endfor %}
+    
+          <li><a href="{{ site.baseurl }}/blogs/page/{{ paginator.total_pages }}/">Last</a></li>
+    
+          {% if paginator.next_page %}
+            <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+          {% else %}
+            <li class="disabled"><span>&raquo;</span></li>
+          {% endif %}
+        </ul>
+      {% endif %}
+    </div>
