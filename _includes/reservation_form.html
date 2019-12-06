@@ -1,62 +1,48 @@
-<section>
-  <h4>Make a reservation</h4>
-  <form method="post" action="https://formspree.io/xdokwkgb">
-    <div class="row uniform">
-      <!-- NAME -->
-      <div class="6u 12u$(xsmall)">
-        <input type="text" name="name" id="name" value="" placeholder="Name" />
+<!-- MAILCHIMP FORM -->
+
+<div id="mc_embed_signup">
+  <form action="https://sait.us4.list-manage.com/subscribe/post?u=aa8c7184924c478f2526f5c75&amp;id=413b457b51" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div class="row uniform" id="mc_embed_signup_scroll">
+      <h3>Please fill out the following information to make a reservation</h3><br><br><br><br>
+      <div class="indicates-required"><span class="asterisk">*</span> indicates required field</div><br><br><br><br>
+
+      <div class="mc-field-group 6u 12u$(xsmall)">
+        <label for="mce-FNAME">First Name: <span class="asterisk">*</span></label>
+        <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
       </div>
-      <!-- EMAIL -->
-      <div class="6u$ 12u$(xsmall)">
-        <input type="email" name="email" id="email" value="" placeholder="Email" />
+      <div class="mc-field-group 6u 12u$(xsmall)">
+        <label for="mce-LNAME">Last Name: </label>
+        <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
       </div>
-      <!-- DATE -->
-      <div class="6u 12u$(xsmall)">
-        <input type="date" name="date" id="date" value="" placeholder="Date" />
+
+      <div class="mc-field-group 6u 12u$(xsmall)">
+        <label for="mce-EMAIL">Email:  <span class="asterisk">*</span></label>
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
       </div>
-      <!-- TIME -->
-      <div class="6u 12u$(xsmall)">
-        <input type="text" name="time" id="time" value="" placeholder="Time block (e.g. 10:00am - 12:30pm)" />
-      </div>
-      <!-- GROUP SIZE -->
-      <div class="12u$">
-        <div class="select-wrapper">
-          <select name="demo-category" id="demo-category">
-            <option value="">- Group size -</option>
-            <option value="1">5 - 10 people</option>
-            <option value="1">11 - 14 people</option>
-            <option value="1">15 - 20 people</option>
-            <option value="1">25 (maximum capacity)</option>
-          </select>
+      <div class="mc-field-group size1of2 6u 12u$(xsmall)">
+        <label for="mce-BIRTHDAY-month">Reservation Date: </label>
+        <div class="datefield">
+          <span class="subfield monthfield"><input class="birthday " id="date-input" type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> / 
+          <span class="subfield dayfield"><input class="birthday " id="date-input" type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> 
         </div>
-      </div>
-      <!-- <div class="4u 12u$(small)">
-        <input type="radio" id="demo-priority-low" name="demo-priority" checked>
-        <label for="demo-priority-low">Low</label>
-      </div>
-      <div class="4u 12u$(small)">
-        <input type="radio" id="demo-priority-normal" name="demo-priority">
-        <label for="demo-priority-normal">Normal</label>
-      </div>
-      <div class="4u$ 12u$(small)">
-        <input type="radio" id="demo-priority-high" name="demo-priority">
-        <label for="demo-priority-high">High</label>
-      </div> -->
-      <!-- EMAIL COPY CHECKBOX -->
+      </div><br><br>
+
+        <div class="mc-field-group 12u$">
+          <label for="mce-FNAME">Message: <span class="asterisk">*</span></label>
+          <textarea name="message" id="message" placeholder="Please your prefered time block and any other special requests" rows="6"></textarea>
+        </div>
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div> 
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_aa8c7184924c478f2526f5c75_413b457b51" tabindex="-1" value=""></div>
+      <div class="clear" id="submit-button"><input type="submit" value="Submit reservation" name="subscribe" id="mc-embedded-subscribe" class="button"></div></div>
+      <br>
       <div class="6u 12u$(small)">
         <input type="checkbox" id="copy" name="copy">
         <label for="copy">Email me a copy</label>
       </div>
-      <!-- INFO MESSAGE -->
-      <div class="12u$">
-        <textarea name="message" id="message" placeholder="Please provide a brief description and any special requests" rows="6"></textarea>
-      </div>
-      <!-- SUBMIT BUTTON -->
-      <div class="12u$">
-        <ul class="actions">
-          <li><input type="submit" value="Submit reservation" class="special" /></li>
-        </ul>
-      </div>
-    </div>
+       
   </form>
-</section>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
