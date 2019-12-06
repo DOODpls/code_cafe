@@ -1,7 +1,7 @@
 ---
 title: Privacy
 layout: page
-New field 2: privacy policy
+keywords: Privacy policy
 description: This privacy notice discloses the privacy practices for Code Cafe website.
 ---
 

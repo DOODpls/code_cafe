@@ -1,7 +1,7 @@
 ---
 title: Site Map
 layout: page
-New field 5: Site Map
+keywords: home, menu, blog, reservation, location
 description: Code Cafe site map
 ---
 
@@ -10,5 +10,4 @@ description: Code Cafe site map
 * [Blog](/post/)
 * [Reservation](/reservation/)
 * [Location](/location/)
-
-*[Privacy Policy](/privacy/)
+* [Privacy Policy](/privacy/)
