@@ -8,6 +8,15 @@
     margin-top: 45px;
 }
 
+.email-center {
+    display: inline !important;
+    width: 50% !important;
+}
+.subcribe-form {
+    margin: 0 3em;
+}
+
+
 @media (min-width:1800px) {
     label, input {
         width: 100%;
@@ -17,4 +26,3 @@
         width: 23%;
     }
 }
-
