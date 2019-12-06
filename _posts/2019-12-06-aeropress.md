@@ -29,4 +29,4 @@ So once you bring home your new aeropress, how do you use it?
 
 9. Enjoy!
 
-<img src="/images/sean-benesh-aeropress-unsplash.jpg" alt="man making aeropress coffee">
+<img src="/images/sean-benesh-aeropress-unsplash.jpg" alt="man making aeropress coffee" class="blog-img">
