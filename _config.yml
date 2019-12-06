@@ -13,10 +13,10 @@ email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/codecafe
+  twitter: https://twitter.com/sait
   #github: https://github.com/<username>
   #linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/codecafe
+  facebook-official: https://facebook.com/sait
   #google-plus-square: https://plus.google.com/u/0/+<username>
   #email: /contact/
   #flickr:
