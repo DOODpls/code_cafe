@@ -10,7 +10,8 @@
   width: 70px;
 }
 @media print {
+
   .headers{
-    display: none;
+    margin-bottom: 100px;
   }
 }

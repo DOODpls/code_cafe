@@ -11,6 +11,6 @@
 }
 @media print {
   .headers{
-    display: none;
+    margin-top: 100px;
   }
 }
