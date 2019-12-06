@@ -3,6 +3,7 @@
 
 # Site settings
 title: Code Cafe
+keyworlds: cafe, coffe, techie, cake
 description:
   A place where you can relax  
   and do stuff while enjoying
@@ -20,7 +21,7 @@ social:
   #google-plus-square: https://plus.google.com/u/0/+<username>
   #email: /contact/
   #flickr:
-  instagram: https://instagram.com/codecafe
+  instagram: https://instagram.com/sait
   #youtube-square:
   #spotify:
   #stack-overflow:
