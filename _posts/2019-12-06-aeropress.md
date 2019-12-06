@@ -29,6 +29,6 @@ So once you bring home your new aeropress, how do you use it?
 
 9. Enjoy!
 
-For lots of detailed information on aeropress coffees, get out <a href="https://coffeechronicler.com/ultimate-guide-to-the-aeropress/">this blog from The Coffee Chronicler.</a>
+For lots of detailed information on aeropress coffees, get out <a href="https://coffeechronicler.com/ultimate-guide-to-the-aeropress/" target="_blank">this blog from The Coffee Chronicler.</a>
 
 <img src="/images/sean-benesh-aeropress-unsplash.jpg" alt="man making aeropress coffee" class="blog-img">
