@@ -3,6 +3,7 @@
 
 # Site settings
 title: Code Cafe
+<<<<<<< HEAD
 description: |
   A place where you can relax  
   and do stuff while enjoying
@@ -18,6 +19,21 @@ social:
   #linkedin-square: https://linkedin.com/in/<username>
   facebook-official: https://facebook.com/codecafe
   #google-plus-square: https://plus.google.com/u/0/+<username>
+=======
+description: code cafe share all about the techie's value
+keywords: cafe, coffee, techie, tech, pastries, latte, macarons, cupcakes, cakes, calgary
+owner: Code Cafe # or company name
+first_published: 2019 # if migrating another site, the year of your first publish
+email: codecafe@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+social:
+  twitter: https://twitter.com/sait
+  # github: https://github.com/<username>
+  linkedin-square: https://linkedin.com/in/sait
+  facebook-official: https://facebook.com/sait
+  # google-plus-square: https://plus.google.com/u/0/+<username>
+>>>>>>> a2d7e8e943467f493fa4702787cd5aafda05b5bc
   #email: /contact/
   #flickr:
   instagram: https://instagram.com/codecafe
@@ -56,5 +72,7 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-admin
 #sass:
 #  style: compressed

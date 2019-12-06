@@ -1,0 +1,13 @@
+input {
+    height: 2.75em;
+    padding: 0 1em;
+    width: 100%;
+
+    display: inline;
+
+    color: rgb(78, 72, 82);
+
+    background:rgba(0, 0, 0, 0.0375);
+    border-radius: 3px;
+    border: none;
+}
