@@ -20,10 +20,10 @@
       {% endfor %}
       
   </ul>
-  <div class="blog-pages">
+  <div class="text-center">
       <!-- Pagination links -->
       {% if paginator.total_pages > 1 %}
-        <ul class="pagination pagination-sm blog-pg">
+        <ul class="pagination pagination-sm">
           {% if paginator.previous_page %}
             <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
           {% else %}
@@ -42,7 +42,7 @@
             {% endif %}
           {% endfor %}
     
-          <li><a href="{{ site.baseurl }}/blogs/page/{{ paginator.total_pages }}/">Last</a></li>
+          <li><a href="{{ site.baseurl }}/blog/page/{{ paginator.total_pages }}/">Last</a></li>
     
           {% if paginator.next_page %}
             <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>

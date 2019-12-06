@@ -12,9 +12,4 @@
 .blog-pg{
   display: flex;
   flex-direction: row;
-  list-style-type: none;
-}
-.blog-pages{
-  display: flex;
-  justify-content: center;
 }
