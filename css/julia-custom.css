@@ -10,6 +10,6 @@
 
 .blog-img{
     width: 30vw;
-    margin: auto;
-    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
