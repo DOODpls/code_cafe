@@ -23,11 +23,10 @@ So once you bring home your new aeropress, how do you use it?
 
 6. Secure the filter.
 
-<img src="../images/sean-benesh-aeropress-unsplash.jpg" alt="man making aeropress coffee">
-
 7. Flip aeropress upside down and place on coffee cup, so filter is facing into the cup.
 
 8. Press down the plunger until your cup is filled with coffee.
 
 9. Enjoy!
 
+<img src="/images/sean-benesh-aeropress-unsplash.jpg" alt="man making aeropress coffee">
