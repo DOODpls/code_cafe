@@ -3,6 +3,7 @@ layout: post
 title: How to make an aeropress coffee
 categories: coffee
 date: 2019-12-06 10:30:00 -0700
+keywords: aeropress, coffee
 ---
 
 An aeropress makes a single 8oz cup of coffee, using air pressure to extract extra flavor out of the coffee grounds. An aeropress is a small aparatus made out of plastic, using a large plunger to create pressure and push the coffee and hot water solution through the filter. We offer aeropress coffees at Code Cafe, but you can also buy an aeropress in store to try at home for yourself!
